@@ -1,0 +1,98 @@
+.navbar{
+    background:#ec96fd;
+   }
+   .nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #f4f4f4;
+    color: #ec96fd;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background:#fff !important;
+   }
+   .bg-dark{
+    background-color:#343a40!important
+    }
+    .bg-primary{
+    background-color:#343a40!important
+    }
+    .header{
+      background-image: url('http://oboi.cc/uploads/11_05_2013/view/201209/oboik.ru_28449.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+      .overlay{
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 0;
+        /* background: rgba(244, 244, 244, 0.79); */
+       }
+       .description{
+        /* position: absolute; */
+        top: 30%;
+        margin: auto;
+        padding: 200px 30px;
+    }
+    .description h1{
+     color:rgb(222, 223, 228) ;
+    }
+    .description p{
+     color:#fff;
+     font-size: 20px;
+     width: 50%;
+     line-height: 1.5;
+    }
+    .description button{
+     border:1px  solid rgb(116, 170, 214);
+     background:#7eeeb6;
+     color:#fff;
+    }
+   .about{
+      margin: 4em 0;
+      padding: 1em;
+      position: relative;
+     }
+    .about h1{
+      color:#F97300;
+      margin: 2em;
+     }
+     .about img{
+      height: 100%;
+         width: 100%;
+         border-radius: 50%
+     }
+     .about span{
+      display: block;
+      color: rgb(32, 32, 32);
+      position: absolute;
+      left: 115px;
+     }
+     .about .desc{
+      padding: 2em;
+      border-left:4px solid #10828C;
+     }
+     .about .desc h3{
+      color: #10828C;
+     }
+     .about .desc p{
+      line-height:1;
+      color:rgb(48, 48, 48);
+     }
+     
+        
+       
+    
+   
+   
+
