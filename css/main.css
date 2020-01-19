@@ -1,5 +1,5 @@
 .navbar{
-    background:#ec96fd;
+    background:#7eeeb6;
    }
    .nav-link , .navbar-brand{
     color: #f4f4f4;
@@ -25,18 +25,18 @@
     background-color:#343a40!important
     }
     .header{
-      background-image: url('http://oboi.cc/uploads/11_05_2013/view/201209/oboik.ru_28449.jpg');
+      background-image: url('https://i.pinimg.com/564x/f0/ae/11/f0ae11f2da2cf08b1ccefeabcbee34b3.jpg');
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
     }
-      .overlay{
+    .overlay{
         position: absolute;
         min-height: 100%;
         min-width: 100%;
         left: 0;
         top: 0;
-        /* background: rgba(244, 244, 244, 0.79); */
+        /* background: rgba(244, 244, 244, 0.79);*/ 
        }
        .description{
         /* position: absolute; */
@@ -64,30 +64,71 @@
       position: relative;
      }
     .about h1{
-      color:#F97300;
+      color:rgb(116, 170, 214);
       margin: 2em;
      }
-     .about img{
-      height: 100%;
+    .about img{
+      height: 80%;
          width: 100%;
          border-radius: 50%
      }
      .about span{
       display: block;
-      color: rgb(32, 32, 32);
+      color: #ec96fd;
       position: absolute;
       left: 115px;
      }
      .about .desc{
       padding: 2em;
-      border-left:4px solid #10828C;
+      border-left:4px solid #7eeeb6;
      }
-     .about .desc h3{
-      color: #10828C;
+      .about .desc h3{
+      color: #7eeeb6;
      }
-     .about .desc p{
-      line-height:1;
+    .about .desc p{
+      line-height:2;
       color:rgb(48, 48, 48);
+     }
+     .kind{
+      margin: 4em 0;
+      position: relative; 
+     }
+     .kind h1{
+      color:rgb(116, 170, 214);
+      margin: 2em; 
+     }
+     .kind .card{
+      box-shadow: 0 0 20px #ccc;
+     }
+     .kind .card img{
+      width: 100%;
+      height: 60%;
+     
+     }
+     .kind .card-title{
+      color:rgb(116, 170, 214);
+       
+     }
+     .kind .card-body{
+      padding: 1em;
+     }
+     .kind button{
+      border:1px  solid rgb(116, 170, 214);
+      background:#7eeeb6;
+      color:#fff;
+     }
+     .portfolio{
+      margin: 4em 0;
+         position: relative; 
+     }
+     .portfolio h1{
+      color:#7eeeb6;
+      margin: 2em; 
+     }
+     .portfolio img{
+       height: 15rem;
+       width: 100%;
+       margin: 1em;
      }
      
         
