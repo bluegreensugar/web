@@ -27,9 +27,12 @@
     .header{
       background-image: url('https://i.pinimg.com/564x/f0/ae/11/f0ae11f2da2cf08b1ccefeabcbee34b3.jpg');
       background-attachment: fixed;
+      background-color: antiquewhite;
       background-size: cover;
       background-position: center;
     }
+    
+   
     .overlay{
         position: absolute;
         min-height: 100%;
@@ -39,13 +42,22 @@
         /* background: rgba(244, 244, 244, 0.79);*/ 
        }
        .description{
-        /* position: absolute; */
+        
         top: 30%;
-        margin: auto;
+        margin: 20px;
         padding: 200px 30px;
     }
+  
     .description h1{
      color:rgb(222, 223, 228) ;
+    }
+    .description h9{
+      color: #7eeeb6;
+      text-shadow: 1px 0 1px #74AAD6, 
+      0 1px 1px #74AAD6, 
+      -1px 0 1px #74AAD6, 
+      0 -1px 1px #74AAD6;
+    
     }
     .description p{
      color:#fff;
@@ -70,7 +82,7 @@
     .about img{
       height: 80%;
          width: 100%;
-         border-radius: 50%
+         
      }
      .about span{
       display: block;
@@ -82,9 +94,7 @@
       padding: 2em;
       border-left:4px solid #7eeeb6;
      }
-      .about .desc h3{
-      color: #7eeeb6;
-     }
+     
     .about .desc p{
       line-height:2;
       color:rgb(48, 48, 48);
@@ -119,18 +129,74 @@
      }
      .portfolio{
       margin: 4em 0;
-         position: relative; 
+      position: relative; 
      }
      .portfolio h1{
-      color:#7eeeb6;
+      color:rgb(116, 170, 214);
       margin: 2em; 
      }
      .portfolio img{
-       height: 15rem;
+       
+       height: 20rem;
        width: 100%;
        margin: 1em;
+       border-radius: 50%
      }
-     
+     .place{
+      margin: 4em 0;
+      position: relative;  
+     }
+     .place h1{
+      color:rgb(116, 170, 214);
+      margin: 2em; 
+     }
+     .place .item{
+      position: relative;
+     }
+     .place .des{
+      background: #7eeeb6;
+      color: #fff;
+      text-align: center;
+      border-bottom-left-radius: 93%;
+      transition:.4s ease-in-out;
+     }
+     .place img{
+       
+      height:200px;
+      width: 300px;
+ 
+      
+    }
+     .place .item:hover .des{
+      height: 100%;
+      background:rgb(116, 170, 214);
+      position: absolute;
+      width: 90%;
+      padding: 5em;
+      top: 0;
+      border-bottom-left-radius: 0;
+     }
+     .contact-form{
+      margin: 6em 0;
+      position: relative;  
+     }
+     .contact-form h1{
+      padding:2em 1px;
+      color: rgb(116, 170, 214); 
+     }
+     .contact-form .right{
+      max-width: 600px;
+     }
+     .contact-form .right .btn-secondary{
+      background: #7eeeb6;
+      color: #fff;
+      border:0;
+     }
+     .contact-form .right .form-control::placeholder{
+      color: #888;
+      font-size: 16px;
+     }
+
         
        
     
