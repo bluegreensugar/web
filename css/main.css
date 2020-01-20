@@ -2,7 +2,7 @@
     background:#7eeeb6;
    }
    .nav-link , .navbar-brand{
-    color: #f4f4f4;
+    color: #74AAD6;
     cursor: pointer;
    }
    .nav-link{
@@ -18,34 +18,30 @@
    .navbar-toggler{
      background:#fff !important;
    }
+   
    .bg-dark{
-    background-color:#343a40!important
+    background-color:#74AAD6!important
     }
     .bg-primary{
-    background-color:#343a40!important
+    background-color:#74AAD6!important
     }
     .header{
+      background-color: bisque;
       background-image: url('https://i.pinimg.com/564x/f0/ae/11/f0ae11f2da2cf08b1ccefeabcbee34b3.jpg');
-      background-attachment: fixed;
-      background-color: antiquewhite;
+      background-attachment: scroll;
+
       background-size: cover;
       background-position: center;
+     
     }
     
-   
-    .overlay{
-        position: absolute;
-        min-height: 100%;
-        min-width: 100%;
-        left: 0;
-        top: 0;
-        /* background: rgba(244, 244, 244, 0.79);*/ 
-       }
-       .description{
+    
+   .description{
         
         top: 30%;
         margin: 20px;
         padding: 200px 30px;
+        
     }
   
     .description h1{
@@ -68,12 +64,14 @@
     .description button{
      border:1px  solid rgb(116, 170, 214);
      background:#7eeeb6;
+  
      color:#fff;
     }
    .about{
       margin: 4em 0;
       padding: 1em;
       position: relative;
+      
      }
     .about h1{
       color:rgb(116, 170, 214);
@@ -86,9 +84,14 @@
      }
      .about span{
       display: block;
-      color: #ec96fd;
+   
       position: absolute;
       left: 115px;
+      color: #7eeeb6;
+      text-shadow: 1px 0 1px #74AAD6, 
+      0 1px 1px #74AAD6, 
+      -1px 0 1px #74AAD6, 
+      0 -1px 1px #74AAD6;
      }
      .about .desc{
       padding: 2em;
@@ -97,7 +100,7 @@
      
     .about .desc p{
       line-height:2;
-      color:rgb(48, 48, 48);
+      color:#74AAD6;
      }
      .kind{
       margin: 4em 0;
@@ -127,15 +130,15 @@
       background:#7eeeb6;
       color:#fff;
      }
-     .portfolio{
+     .forms{
       margin: 4em 0;
       position: relative; 
      }
-     .portfolio h1{
+     .forms h1{
       color:rgb(116, 170, 214);
       margin: 2em; 
      }
-     .portfolio img{
+     .forms img{
        
        height: 20rem;
        width: 100%;
@@ -177,7 +180,7 @@
       border-bottom-left-radius: 0;
      }
      .contact-form{
-      margin: 6em 0;
+      padding:5em 1px;
       position: relative;  
      }
      .contact-form h1{
@@ -196,9 +199,11 @@
       color: #888;
       font-size: 16px;
      }
-
+     @import url('https://fonts.googleapis.com/css?family=Raleway');
         
-       
+     html,h1,h2,h3,h4,h5,h6,h9,a{
+      font-family: "Raleway";
+     }
     
    
    
